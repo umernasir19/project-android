@@ -65,17 +65,17 @@ public class Categories extends AppCompatActivity{
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     if (position == 0) {
-                        Intent myIntent = new Intent(view.getContext(), Doctor1.class);
+                        Intent myIntent = new Intent(view.getContext(), AUDIOLOGIST.class);
                         startActivity(myIntent);
                     }
-                    else if (position == 1) {
-                       Intent myintent=new Intent(view.getContext(),doctor2.class);
-                       startActivity(myintent);
-                    }
-                    else if (position == 2) {
-                        Intent myIntent = new Intent(view.getContext(), doctor3.class);
-                        startActivity(myIntent);
-                }
+//                    else if (position == 1) {
+//                       Intent myintent=new Intent(view.getContext(),doctor2.class);
+//                       startActivity(myintent);
+//                    }
+//                    else if (position == 2) {
+//                        Intent myIntent = new Intent(view.getContext(), doctor3.class);
+//                        startActivity(myIntent);
+//                }
                     }
 
 

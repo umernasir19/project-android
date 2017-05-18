@@ -2,33 +2,36 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/activity_doctor3"
+        android:id="@+id/activity_audiologist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#ffffff"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:context="com.example.hafizumerbinnasir.appointadoctor.doctor3">
+        tools:context="com.example.hafizumerbinnasir.appointadoctor.AUDIOLOGIST">
+
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
 
 
-    <ImageView
-            android:src="@drawable/prof"
+    <android.support.v7.widget.AppCompatImageView
             android:layout_width="match_parent"
-            android:layout_height="93dp"
-
-            android:layout_weight="0.3"/>
-
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Doctor Name:DR ABCefghijklm
-"
-            android:textColor="#dc0e22"
+            android:layout_height="match_parent"
+            android:background="@drawable/prof"
             android:layout_weight="1"
+    />
+
+    <android.support.v7.widget.AppCompatAutoCompleteTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+            android:textColor="#000000"
+            android:textSize="75px"
 
     />
+
+</ScrollView>
 
 </LinearLayout>
