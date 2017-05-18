@@ -29,6 +29,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Categories">
+
         </activity>
         <activity android:name=".Doctor1">
         </activity>
