@@ -1,8 +1,6 @@
 package com.example.hafizumerbinnasir.appointadoctor;
 
 import android.annotation.TargetApi;
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -12,13 +10,13 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
+import com.example.hafizumerbinnasir.Audiologist.AUDIOLOGIST;
 
 
 public class Categories extends AppCompatActivity{
 
         public ListView listView;
-        String[] listPlanet={"\n\\" ,
+        String[] listPlanet={
                 "AUDIOLOGIST\n" ,
                 "BREAST SURGEON\n" ,
                 "CARDIOLOGIST\n" ,

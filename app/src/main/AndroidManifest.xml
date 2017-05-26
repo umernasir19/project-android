@@ -30,7 +30,9 @@
         </activity>
         <activity android:name=".Categories">
         </activity>
-        <activity android:name=".AUDIOLOGIST">
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.AUDIOLOGIST">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.Dr_amtullah">
         </activity>
     </application>
 
