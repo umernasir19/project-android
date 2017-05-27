@@ -18,6 +18,10 @@ public class AUDIOLOGIST extends AppCompatActivity {
             "Dr. Amtullah Shaikh\n" ,
             "Dr. Tahira Aleem\n" ,
             "DR. ABDUL LATIF\n" ,
+            "DR. MEHBOOB AHMED \n",
+            "DR. RASHIDA HIRANI \n",
+            "Dr AKMAL MUSTUFA"
+
             };
 
     @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
@@ -44,18 +48,33 @@ public class AUDIOLOGIST extends AppCompatActivity {
                     Intent myIntent = new Intent(view.getContext(), Dr_amtullah.class);
                     startActivity(myIntent);
                 }
-//                    else if (position == 1) {
-//                       Intent myintent=new Intent(view.getContext(),doctor2.class);
-//                       startActivity(myintent);
-//                    }
-//                    else if (position == 2) {
-//                        Intent myIntent = new Intent(view.getContext(), doctor3.class);
-//                        startActivity(myIntent);
-//                }
+                    else if (position == 1) {
+                       Intent myintent=new Intent(view.getContext(),Dr_tahira_aleem.class);
+                       startActivity(myintent);
+                    }
+
+                else if (position == 2) {
+                    Intent myIntent = new Intent(view.getContext(),DR_ABDUL_LATIF.class);
+                    startActivity(myIntent);
+                }
+                else if (position == 3) {
+                    Intent myIntent = new Intent(view.getContext(),DR_MEHBOOB_AHMED.class);
+                    startActivity(myIntent);
+                }
+                else if (position == 4) {
+                    Intent myIntent = new Intent(view.getContext(),DR_RASHIDA_HIRANI.class);
+                    startActivity(myIntent);
+                }
+
+                else if (position == 5) {
+                    Intent myIntent = new Intent(view.getContext(),Dr_Akmal_mustufa.class);
+                    startActivity(myIntent);
+                }
             }
 
 
         });
+
     }
 }
 

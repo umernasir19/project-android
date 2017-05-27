@@ -12,7 +12,7 @@
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:layout_weight="1"
         tools:context="com.example.hafizumerbinnasir.appointadoctor.Categories">
-        android:weightSum="1">
+    android:weightSum="1">
 
 
     <ImageView
@@ -23,7 +23,7 @@
     />
     <TextView
             android:layout_width="match_parent"
-            android:text="NAME:Dr Amtullah \n Qualification:FCPS \n Timing:Monday | 3:00 PM to 4:00 PM \n Location:Saifee Hospital Block F،\t \n Saifee Road، North Nazimabad،Karachi 74700"
+            android:text="NAME:Dr Abdul Latif \n Qualification:MBBS BSC,MASP UK(AUDIOLOGY) \n Timing:Monday  To Thursday | 4:00 PM to 7:00 PM \n Location:Taj Medical complex, M. A. Jinnah Road, Jacob Lines Karachi Sindh"
             android:layout_height="320dp"
             android:textColor="@color/colorPrimaryDark"
             android:textStyle="bold"

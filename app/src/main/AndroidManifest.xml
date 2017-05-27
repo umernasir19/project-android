@@ -34,6 +34,16 @@
         </activity>
         <activity android:name="com.example.hafizumerbinnasir.Audiologist.Dr_amtullah">
         </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.Dr_tahira_aleem">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.DR_ABDUL_LATIF">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.DR_MEHBOOB_AHMED">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.DR_RASHIDA_HIRANI">
+        </activity>
+        <activity android:name="com.example.hafizumerbinnasir.Audiologist.Dr_Akmal_mustufa">
+        </activity>
     </application>
 
 </manifest>

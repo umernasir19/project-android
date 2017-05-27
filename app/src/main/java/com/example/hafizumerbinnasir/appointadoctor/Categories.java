@@ -18,7 +18,6 @@ public class Categories extends AppCompatActivity{
         public ListView listView;
         String[] listPlanet={
                 "AUDIOLOGIST\n" ,
-                "BREAST SURGEON\n" ,
                 "CARDIOLOGIST\n" ,
                 "CHEST PHYSICIAN\n" ,
                 "DENTAL SURGEON\n" ,
